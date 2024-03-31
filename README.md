@@ -8,10 +8,10 @@ To deploy and run the application, follow the instructions in the provided docum
 ## AWS Services Used
 Lambda, API Gateway, DynamoDB
 ## Steps to follow
-1. Creating a DynamoDB Table
+1. Creating a DynamoDB Table\
 i. Create a table named 'order' with partitionkey as orderId.
 
-2. Create a RestAPi using API Gateway
+2. Create a RestAPi using API Gateway\
 Make sure to turn on CORS and Lambda Integration for all of the resources and method.
 ```bash
 i. Create a resource '/order'

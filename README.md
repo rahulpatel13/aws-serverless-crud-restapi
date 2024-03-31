@@ -28,12 +28,13 @@ After creating deploy the API and save the url , we will use the url to test the
 
 3. Create a lambda function with Java 11+ as enviroment and uplod the code.\
 i. Make sure you change the package name and function name in Runtime settings while deploying the code.\
-ii. To upload the code , create a jar file perform below command to upload the jar file to lambda.
+ii. To upload the code , create a jar file perform below command to upload the jar file to lambda.\
+iii.Create a IAM ROLE to allow permissions to lambda to have full access of DynamoDB.
 ```bash
 mvn clean install
 ```
 This is the Handler Information . com.app.crudApplication.LambdaHandler::handleRequest\
-ii.Create a IAM ROLE to allow permissions to lambda to have full access of DynamoDB.
+
 
 
 5. Use PostmanAdd the url and test all the following methods as per functionality.eg get,post,delete

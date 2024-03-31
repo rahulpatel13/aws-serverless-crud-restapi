@@ -27,7 +27,7 @@ After creating deploy the API and save the url , we will use the url to test the
 
 
 3. Create a lambda function with Java 11+ as enviroment and uplod the code.\
-i. Make sure you change the package name and function name in Runtime settings while deploying the code.
+i. Make sure you change the package name and function name in Runtime settings while deploying the code.\
 ii. To Deploy the perform
 ```bash
 mvn clean install

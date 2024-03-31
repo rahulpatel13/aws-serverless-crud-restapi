@@ -64,5 +64,5 @@ Sample JSON Format to run for this miniservice.
 
 ## Screenshots
 
-![Architecture Diagram](https://github.com/rahulpatel13/aws-serverless-crud-restapi/blob/master/CRUD%20SEVRELESS.png)
+![Architecture Diagram](https://github.com/rahulpatel13/aws-serverless-crud-restapi/blob/master/Architecture%20Diagram.png)
 
